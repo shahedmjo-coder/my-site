@@ -1,0 +1,57 @@
+body {
+margin: 0;
+font-family: Arial;
+
+    background-image: url("k.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+background: rgb(130, 120, 200);
+padding: 20px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+nav {
+background: rgb(37, 111, 186);
+padding: 10px;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 5px;
+}
+
+nav a:hover {
+color: pink;
+}
+
+section {
+padding: 50px;
+text-align: center;
+}
+
+button {
+padding: 10px;
+background: rgb(144, 65, 127);
+color: white;
+border: none;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+width: 300px;
+margin: auto;
+}
+
+input, select {
+margin: 10px 0;
+padding: 10px;
+}
